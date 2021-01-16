@@ -1,0 +1,17 @@
+{
+    "name": "Add Event",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "add event",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://www.google.com/*"
+            ],
+            "js": [
+                "jquery-3.5.1.min.js",
+                "add-event.js"
+            ]
+        }
+    ]
+}

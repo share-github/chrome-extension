@@ -1,0 +1,18 @@
+{
+    "name": "button-click",
+    "version": "0.1",
+    "description": "press login",
+    "permissions": [
+        "activeTab"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistant": false
+    },
+    "browser_action": {
+        "name": "login"
+    },
+    "manifest_version": 2
+}
